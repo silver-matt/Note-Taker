@@ -1,5 +1,9 @@
   # Note-Taker
 
+
+https://user-images.githubusercontent.com/99905729/172074102-b418b55e-fa96-420d-9b42-ea67b5f8a9f7.mp4
+
+
   # Description 
   This project is a note taking application that saves notes and deletes them.
 
