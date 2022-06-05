@@ -20,7 +20,7 @@ app.get('/notes', (req, res) =>
     res.sendFile(path.join(__dirname, './public/notes.html'))
 );
 
-// API routes for notes page
+// API routes for the notes page
 app.get('/api/notes', (req, res) => {
     res.json(dataBase.slice(1));
 });
@@ -29,7 +29,7 @@ app.post('/api/notes', (req, res) => {
         const newNote = createNote(req.body, dataBase);
         res.json(newNote);
     })
-    // Function to create new note and count Id for each note
+    // Function that creates new notes and count Ids for each note
 const createNote = (body, notesArray) => {
     const newNote = body;
     if (!Array.isArray(notesArray))
